@@ -1,3 +1,5 @@
+# ** BUIDING ... **
+
 # Step-by-step Guide of Booting linux on a Rocket-chip SoC on Nexys4ddr
 
 ### STEPS OVERVIEW
