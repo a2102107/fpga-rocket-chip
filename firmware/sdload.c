@@ -54,9 +54,10 @@ int main (void)
     fr = f_read(&fil, buf, SD_READ_SIZE, &br);  // Read a chunk of source file
     buf += br;
     fsize += br;
+    printf("Load %d bytes to memory address ", fsize);
   } while(!(fr || br == 0));
 
-  printf("Load %d bytes to memory address ", fsize);
+  printf("Load %d bytes to memory address ! Done !", fsize);
   printf("%h from boot.elf \n\r", (uint64_t)boot_file_buf);
 
   // read elf
